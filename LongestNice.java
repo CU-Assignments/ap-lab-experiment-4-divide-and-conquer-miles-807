@@ -2,7 +2,7 @@ class Solution {
     public String longestNiceSubstring(String s) {
         if (s.length() < 2) return "";
         java.util.Set<Character> charSet = new java.util.HashSet<>();
-        for (char c : s.toCharArray()) {
+        for (char c : s.toCharArray()) {   //Selim Jahangir 22bcs13878
             charSet.add(c);
         }
         for (int i = 0; i < s.length(); i++) {
